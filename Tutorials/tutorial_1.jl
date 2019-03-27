@@ -3,7 +3,8 @@
 # Tutorial 1: Introductory Example: Ordinary Least Squares (OLS) Estimation in Julia
 # Passed test on Julia 0.4
 
-srand(2)
+using Random
+Random.seed(123)
 
 using Distributions
 
